@@ -1,9 +1,9 @@
 
 
 public class Horse extends Animal implements Runable {
-    private String colour;
+    String colour;
 
-    public Horse(String name, int box, String color) {
+    public Horse(String name, int box, String colour) {
         super(name, box);
         this.colour = colour;
     }
