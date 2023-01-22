@@ -1,9 +1,9 @@
 
 public class Cat extends Animal implements Runable{
-    private String colour;
+    String colour;
     
 
-    public Cat(String name, int box, String color) {
+    public Cat(String name, int box, String colour) {
         super(name, box);
         this.colour = colour;
     }
